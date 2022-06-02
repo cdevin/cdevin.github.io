@@ -1,0 +1,406 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151437192-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151437192-1');
+</script>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 100px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Coline Devin</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="67%" valign="middle">
+        <p align="center">
+          <name>Coline Devin</name>
+        </p>
+        <p>
+	  I am a PhD candidate in <a href=http://bair.berkeley.edu>BAIR</a> at UC Berkeley, advised by Professors Sergey Levine, Pieter Abbeel and Trevor Darrell.
+	  I graduated in Computer Science from 
+	<a href=https://www.hmc.edu/>Harvey Mudd College</a> in May 2015, and I have previously interned at 
+<a href="https://ai.google/research/teams/brain">Google Brain</a>, 
+ <a href=https://deepmind.com>Deepmind</a> and <a href=https://mila.umontreal.ca/en/>MILA</a>. I am supported by the NSF GRFP.
+        </p>
+        <p align=center>
+<a href="cv.pdf">CV</a> &nbsp/&nbsp
+<a href="https://scholar.google.com/citations?user=Ivot3fkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp 
+<a href="http://www.github.com/cdevin/"> GitHub </a>
+        </p>
+        </td>
+        <td width="40%">
+        <img src="coline_head.jpg" width="250">
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="middle">
+          <heading>Research</heading>
+          <p>
+	    My research lies at the intersections of deep learning, vision, and robotics. I am interested in representing and incorporating objects into data-driven robot learning, as well as ensuring that learned policies transfer to new tasks and environments. 
+          </p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='smirl.png' width=110%>
+            </div>
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1912.05510">
+        <papertitle><em>New!</em> SMiRL: Surprise Minimizing RL in Dynamic Environments</papertitle></a><br>
+        Glen Berseth, Daniel Geng, Coline Devin, Chelsea Finn, Dinesh Jayaraman, Sergey Levine<br>
+                <em>in submission</em><br>
+                <a href ="https://arxiv.org/abs/1912.05510">arxiv</a>
+		/
+		<a href ="https://bairblog.github.io/2019/12/18/smirl/">blog</a>
+              </a></p>
+              </td>
+            </tr>
+          <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='gcsl.png' width=60%>
+            </div>
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1912.06088">
+        <papertitle><em>New!</em> Learning To Reach Goals Without Reinforcement Learning
+</papertitle></a><br>
+        Dibya Ghosh, Abhishek Gupta, Justin Fu, Ashwin Reddy, Coline Devin, Benjamin Eysenbach, Sergey Levine<br>
+                <em>in submission</em><br>
+                <a href ="https://arxiv.org/abs/1912.06088">arxiv</a>
+              </a></p>
+              </td>
+            </tr>
+       <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='cpv.png' width=110%>
+            </div>
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1910.14033">
+        <papertitle><em>New!</em> Plan Arithmetic: Compositional Plan Vectors for Multi-Task Control</papertitle></a><br>
+        Coline Devin, Daniel Geng, Pieter Abbeel, Trevor Darrell, Sergey Levine<br>
+                <em>NeurIPS 2019</em><br>
+                <a href ="https://arxiv.org/abs/1910.14033">arxiv</a>
+		/
+		<a href ="https://sites.google.com/berkeley.edu/compositionalplanvectors/">webpage</a>
+                /
+                <a href ="https://youtu.be/Z3C_s7bxdyE"> short video</a>
+		/
+                <a href ="https://github.com/cdevin/cpv"> code</a>
+              </a></p>
+              </td>
+            </tr>
+
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/mpvnet.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1905.06937">
+        <papertitle> Monocular Plan View Networks for Autonomous Driving</papertitle></a><br>
+        Dequan Wang, Coline Devin, Qi-Zhi Cai, Philipp Krah&euml;nb&uuml;hl, Trevor Darrell<br>
+                <em>IROS 2019</em><br>
+		<a href ="https://arxiv.org/abs/1905.06937">arxiv</a>
+                
+              </a></p>
+              </td>
+            </tr>
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/objectcars.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1811.05432">
+        <papertitle>Deep Object Centric Policies for Autonomous Driving</papertitle></a><br>
+        Dequan Wang, Coline Devin, Qi-Zhi Cai, Fisher Yu, Trevor Darrell<br>
+                <em>ICRA 2019</em><br>
+		<a href ="https://arxiv.org/abs/1811.05432">arxiv</a>
+                
+              </a></p>
+              </td>
+            </tr>
+
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/grasp2vec.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1811.06964">
+        <papertitle> Grasp2Vec: Learning Object Representations from Self-Supervised Grasping</papertitle></a><br>
+        Eric Jang*, Coline Devin*,  Vincent Vanhoucke, Sergey Levine<br>
+		* Denotes equal contribution </br>
+                <em>CoRL 2018</em><br>
+		<a href ="https://arxiv.org/abs/1811.06964">arxiv</a>
+		/
+                <a href ="https://sites.google.com/site/grasp2vec/home">webpage</a>
+                /
+		<a href ="https://github.com/google-research/tensor2robot/tree/master/research/grasp2vec">code</a>
+              </a></p>
+              </td>
+            </tr>
+
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/objectrl_teaser.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/abs/1708.04225">
+        <papertitle>Deep Object-Centric Representations for Generalizable Robot Learning</papertitle></a><br>
+        Coline Devin,  Pieter Abbeel, Trevor Darrell, Sergey Levine<br>
+                <em>ICRA 2018</em><br>
+		<a href ="https://arxiv.org/abs/1708.04225">arxiv</a>
+		/
+                <a href ="https://sites.google.com/berkeley.edu/object-representations">webpage</a>
+                /
+                <a href ="https://github.com/cdevin/objectattention">code</a>
+                
+              </a></p>
+              </td>
+            </tr>
+
+        <tr>
+          <td width="25%">
+            <div class="one">
+                <img src='figures/ICLR2017.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://openreview.net/pdf?id=Hyq4yhile">
+        <papertitle>Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning</papertitle></a><br>
+        Abhishek Gupta*, Coline Devin*, YuXuan Liu, Pieter Abbeel, Sergey Levine<br>
+		* Denotes equal contribution </br>
+                <em>ICLR</em>, 2017<br>
+		<!-- <a href ="https://arxiv.org/abs/1609.07088">arxiv</a> -->
+		<!-- / -->
+                <a href ="https://sites.google.com/site/invariantfeaturetransfer/">webpage</a>
+                /
+                <a href ="https://youtu.be/NK5OkvZe_K4">video</a>
+                
+              </a></p>
+              </td>
+            </tr>
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/module.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/pdf/1609.07088v1.pdf">
+        <papertitle>Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer</papertitle></a><br>
+        Coline Devin*, Abhishek Gupta*, Trevor Darrell, Pieter Abbeel, Sergey Levine<br>
+		* Denotes equal contribution </br>
+                <em>ICRA</em>, 2017<br>
+		<a href ="https://arxiv.org/abs/1609.07088">arxiv</a>
+		/
+                <a href ="https://sites.google.com/site/modularpolicynetworks/">webpage</a>
+                /
+                <a href ="https://youtu.be/n4EgRwzJE1o">video</a>
+                
+              </a></p>
+              </td>
+            </tr>
+
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/wafr2016.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="http://wafr2016.berkeley.edu/papers/WAFR_2016_paper_106.pdf">
+        <papertitle>Adapting deep visuomotor representations with weak pairwise constraints</papertitle></a><br>
+        Eric Tzeng*, Coline Devin*, Judy Hoffman, Chelsea Finn, Pieter Abbeel, Sergey Levine, Kate Saenko, Trevor Darrell<br>
+                <em>WAFR</em>, 2016<br>
+		<a href ="https://arxiv.org/abs/1511.07111">arxiv</a>
+		<!-- / -->
+                <!-- <a href ="https://sites.google.com/site/modularpolicynetworks/">webpage</a> -->
+                <!-- / -->
+                <!-- <a href ="https://youtu.be/n4EgRwzJE1o">video</a> -->
+                
+              </a></p>
+              </td>
+            </tr>
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/iclr2015.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/pdf/1412.6448.pdf">
+        <papertitle>Embedding word similarity with neural machine translation</papertitle></a><br>
+		Felix Hill, Kyunghyun Cho, Sebastien Jean, Coline Devin, Yoshua Bengio<br>
+                <em>ICLR workshop</em>, 2015<br>
+		<a href ="https://arxiv.org/abs/1412.6448">arxiv</a>
+		<!-- / -->
+                <!-- <a href ="https://sites.google.com/site/modularpolicynetworks/">webpage</a> -->
+                <!-- / -->
+                <!-- <a href ="https://youtu.be/n4EgRwzJE1o">video</a> -->
+                
+              </a></p>
+              </td>
+            </tr>
+        <tr >
+          <td width="25%">
+            <div class="one">
+                <img src='figures/nips2014.png' width=110%>
+            </div>                
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://arxiv.org/pdf/1410.0718.pdf">
+        <papertitle>Not all neural embeddings are born equal</papertitle></a><br>
+		Felix Hill, Kyunghyun Cho, Sebastien Jean, Coline Devin, Yoshua Bengio<br>
+                <em>Learning Semantics Workshop at NIPS</em>, 2014<br>
+		<a href ="https://arxiv.org/abs/1410.0718">arxiv</a>
+		<!-- / -->
+                <!-- <a href ="https://sites.google.com/site/modularpolicynetworks/">webpage</a> -->
+                <!-- / -->
+                <!-- <a href ="https://youtu.be/n4EgRwzJE1o">video</a> -->
+                
+              </a></p>
+              </td>
+            </tr>
+
+        
+        <!-- <tr onmouseout="hdrp_stop()" onmouseover="hdrp_start()" > -->
+        <!--   <td width="25%"> -->
+            
+        <!--     <div class="one"> -->
+        <!--         <div class="two" id = 'hdrp_image'><img src='hdrp_after.jpg'></div> -->
+        <!--         <img src='hdrp_before.jpg'> -->
+        <!--     </div>                 -->
+        <!--     <script type="text/javascript"> -->
+        <!--     function hdrp_start() { -->
+        <!--       document.getElementById('hdrp_image').style.opacity = "1"; -->
+        <!--     } -->
+        <!--     function hdrp_stop() { -->
+        <!--       document.getElementById('hdrp_image').style.opacity = "0"; -->
+        <!--     } -->
+        <!--     hdrp_stop() -->
+        <!--     </script> -->
+            
+            
+            
+        <!--       </td> -->
+        <!--       <td valign="top" width="75%"> -->
+        <!--       <p><a href="http://www.hdrplusdata.org/hdrplus_preprint.pdf"> -->
+        <!-- <papertitle>Burst Photography for High Dynamic Range and Low-Light Imaging on Mobile Cameras</papertitle></a><br> -->
+        <!-- <a href="http://people.csail.mit.edu/hasinoff/">Samuel W. Hasinoff</a>, Dillon Sharlet, <a href="http://www.geisswerks.com/">Ryan Geiss</a>, <a href="http://people.csail.mit.edu/abadams/">Andrew Adams</a>, <strong>Jonathan T. Barron</strong>, Florian Kainz, <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>, <a href="http://graphics.stanford.edu/~levoy/">Marc Levoy</a> <br> -->
+        <!--         <em>SIGGRAPH Asia</em>, 2016<br> -->
+        <!--         <a href = "http://www.hdrplusdata.org/">project page</a> -->
+        <!--         /  -->
+        <!--         <a href ="http://www.hdrplusdata.org/hdrplus_preprint_supp.pdf">supplement</a> -->
+        <!--         / -->
+        <!--         <a href="Hasinoff2016.bib">bibtex</a> -->
+        <!--       <p></p> -->
+        <!--       <p>Mobile phones can take beautiful photographs in low-light or high dynamic range environments by aligning and merging a burst of images.</p> -->
+        <!--       <p>This technology is used by the <a href="https://research.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">Nexus HDR+</a> feature. </p> -->
+        <!--       <p></p> -->
+        <!--       </a></p> -->
+        <!--       </td> -->
+        <!--     </tr> -->
+            
+         
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <br>
+        <p align="right"><font size="2">
+          Website template from <a href="http://www.cs.berkeley.edu/~barron/">Jon Barron</a>.
+	  <br>
+	  Last updated January 2020.
+          </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+  </table>
+  </body>
+</html>
